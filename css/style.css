@@ -61,7 +61,47 @@ h1, h2, h3, h4, h5, h6 {
 
 .display-options-title {
     display: flex;
-    
+    justify-content: space-between;
+    padding: 0 0 0 3vw;
+    align-items: center;
+}
+
+.display-options-title h1 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.display-options-finder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3vw;
+    background-color: #def6f5;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+
+.display-options-finder h3 {
+    font-size: 20px;
+}
+
+.display-options-finder div {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    background-color: white;
+    border-radius: 20px;
+    color: #d6d6d6;
+    max-width: 70%;
+    padding: 5px 2px;
+}
+
+.display-options-finder input {
+    border: none;
+}
+
+.display-options-finder input:focus {
+    outline: none;
 }
 
 /* -------------------------------------------------display-img */
