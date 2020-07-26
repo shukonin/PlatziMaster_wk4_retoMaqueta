@@ -35,6 +35,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     color: white;
     font-weight: bold;
+    font-size: 1.5em;
 }
 
 .sider i, p:hover{
@@ -107,6 +108,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 5px 2px;
 }
 
+.display-options-finder i {
+    padding:0 1vw;
+}
+
 .display-options-finder input {
     border: none;
 }
@@ -123,17 +128,52 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .workwith-title div a {
+    color: black;
     text-decoration: none;
-    border: 1px solid red;
-    border-radius: 20%;
     padding: 1px;
+    font-size: 1.2em;
+}
+
+.workwith-title div a:hover {
+    color: #900d0d;
 }
 
 .workwith-apps {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding-left: 3vw;
+    gap: 1vw;
 }
+
+.app .app-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 1vw;
+    font-size: 3em;
+    border: 1px solid #f8caca ;
+    
+}
+
+.app .app-logo:hover {
+    font-size: 5em;
+    cursor: pointer;
+    border: 1px solid #900d0d86;
+}
+
+.app .app-view-detail {
+    background-color: #900d0d; 
+    /* display: none; */
+}
+
+.app .app-view-detail p {
+    margin: 0;
+    font-size: 0.7em;
+    color: white;
+    text-align: center;
+}
+
+
 
 /* -------------------------------------------------display-img */
 .display-img figure {
@@ -162,10 +202,13 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    font-size: 1.3em;
 }
 
 .footer-media i:hover {
     cursor: pointer;
+    /* font-size: 1.4em; */
+    font-weight: bold;
 }
 
 .footer-options {
