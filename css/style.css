@@ -176,20 +176,15 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* -------------------------------------------------display-img */
-.display-img figure {
-    position: relative;
-    display: flex;
-    height: 100%;
-    margin: 0 5vw;
-    justify-content: center;
+.display-photo {
+    background-image: url(../images/MercedesF1.jpg);
+    height: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 3vw;
 }
 
-.display-img figure img {
-    position: absolute;
-    top: -10vh;
-    width: 90%;
-    
-}
 
 /* -------------------------------------------footer */
 .content-footer {
