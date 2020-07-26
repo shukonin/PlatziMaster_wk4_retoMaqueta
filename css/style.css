@@ -59,6 +59,16 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-rows: 1fr 2fr 3fr;
 }
 
+.display-options h1 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.display-options h3 {
+    font-size: 20px;
+    margin: 3vh 0;
+}
+
 .display-options-title {
     display: flex;
     justify-content: space-between;
@@ -66,9 +76,14 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
-.display-options-title h1 {
-    font-size: 25px;
-    margin: 0;
+.display-options-title button {
+    border-radius: 10px;
+    font-size: 0.75em;
+    border: 1px solid gainsboro;
+}
+
+.display-options-title button:hover {
+    cursor: pointer;
 }
 
 .display-options-finder {
@@ -80,10 +95,6 @@ h1, h2, h3, h4, h5, h6 {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     overflow: hidden;
-}
-
-.display-options-finder h3 {
-    font-size: 20px;
 }
 
 .display-options-finder div {
@@ -102,6 +113,26 @@ h1, h2, h3, h4, h5, h6 {
 
 .display-options-finder input:focus {
     outline: none;
+}
+
+.workwith-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3vw;
+}
+
+.workwith-title div a {
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 20%;
+    padding: 1px;
+}
+
+.workwith-apps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 3vw;
 }
 
 /* -------------------------------------------------display-img */
